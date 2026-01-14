@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  scrapping:
+    build: .
+    volumes:
+      - ./content:/apcontent
+    command: python -m sp/rc.main content/input.xlsx

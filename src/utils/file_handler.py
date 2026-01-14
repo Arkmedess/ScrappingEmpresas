@@ -34,4 +34,4 @@ def limpar_arquivo_temporario(caminho_referencia: str) -> None:
 
     if os.path.exists(caminho_temp):
         os.remove(caminho_temp)
-        print(f"🧹 Arquivo temporário removido: {os.path.basename(caminho_temp)}")
+        print(f"Arquivo temporário removido: {os.path.basename(caminho_temp)}")
